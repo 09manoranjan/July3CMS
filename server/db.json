@@ -1,0 +1,52 @@
+{
+  "userInfo": [
+    {
+      "id": 1,
+      "firstName": "Alok",
+      "lastName": "Kumar",
+      "phone": 9874663210,
+      "emailID": "alok.kumar@gmail.com",
+      "city": "Bhubaneswar"
+    },
+    {
+      "id": 2,
+      "firstName": "Anil",
+      "lastName": "Dash",
+      "phone": 7412589630,
+      "emailID": "anil.dash@gmail.com",
+      "city": "Cuttack"
+    },
+    {
+      "id": 3,
+      "firstName": "Ritik",
+      "lastName": "Ranjan",
+      "phone": 7735299498,
+      "emailID": "ritik.ranjan@gmail.com",
+      "city": "Ranchi"
+    },
+    {
+      "id": 4,
+      "firstName": "Sid",
+      "lastName": "Lenka",
+      "phone": 8523697410,
+      "emailID": "sid.lenka@gmail.com",
+      "city": "Rourkela"
+    },
+    {
+      "id": 5,
+      "firstName": "Subhash",
+      "lastName": "Sahoo",
+      "phone": 9935674102,
+      "emailID": "subash.sahoo@gmail.com",
+      "city": "Bhubaneswar"
+    },
+    {
+      "firstName": "jiban",
+      "lastName": "majhi",
+      "phone": "7412563980",
+      "emailID": "jiban.majhi@gmail.com",
+      "city": "Pune",
+      "id": 6
+    }
+  ]
+}

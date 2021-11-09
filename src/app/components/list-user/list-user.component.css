@@ -1,0 +1,20 @@
+.table{
+   /* width: 94%;
+    */
+   overflow-wrap: break-word;
+   display: table;
+   text-align: center;
+    /* width: -webkit-fill-available; */
+}
+.updateBtn,.deleteBtn{
+   width: 8rem;
+}
+td button{
+   width: 6rem;   
+}
+thead{font-size: 18px;background-color: #6c7ae0;color:#fff}
+th{ padding: 30px;}
+.topHeading{
+   margin-bottom: 4rem;
+   margin-top: 2rem;
+}

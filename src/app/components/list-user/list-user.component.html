@@ -1,0 +1,31 @@
+<h1 class="text-center topHeading">Contact Management List</h1>
+<div class="tableContent mx-5 my-3 py-2">
+   <table class="table table-hover table-striped">
+      <thead class="">
+         <tr>
+         <th>Sl No</th>
+         <th>First Name</th>
+         <th>Last Name</th>
+         <th>Phone Number</th>
+         <th>Email Id</th>
+         <th>City</th>
+         <th>Update</th>
+         <th>Delete</th>
+      </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor="let data of userDataList;let i=index;">
+            <td>{{i+1}}</td>
+            <td>{{data.firstName}}</td>
+            <td>{{data.lastName}}</td>
+            <td>{{data.phone}}</td>
+            <td>{{data.emailID}}</td>
+            <td>{{data.city}}</td>
+            <td class="updateBtn"><a class="btn btn-warning" routerLink="/updateUser/{{data.id}}">Update</a></td>
+            <td class="deleteBtn"><button class="btn btn-danger" (click)="deleteUser(data.id)">Delete</button></td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+
